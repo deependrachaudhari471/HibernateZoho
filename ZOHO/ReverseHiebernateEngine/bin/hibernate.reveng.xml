@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="zohotest2" match-name="activity"/>
+  <table-filter match-catalog="zohotest2" match-name="bug"/>
+  <table-filter match-catalog="zohotest2" match-name="client"/>
+  <table-filter match-catalog="zohotest2" match-name="company"/>
+  <table-filter match-catalog="zohotest2" match-name="documents"/>
+  <table-filter match-catalog="zohotest2" match-name="event"/>
+  <table-filter match-catalog="zohotest2" match-name="feeds"/>
+  <table-filter match-catalog="zohotest2" match-name="milestone"/>
+  <table-filter match-catalog="zohotest2" match-name="project"/>
+  <table-filter match-catalog="zohotest2" match-name="project_manager"/>
+  <table-filter match-catalog="zohotest2" match-name="projectgroup"/>
+  <table-filter match-catalog="zohotest2" match-name="sharebug"/>
+  <table-filter match-catalog="zohotest2" match-name="status"/>
+  <table-filter match-catalog="zohotest2" match-name="user"/>
+</hibernate-reverse-engineering>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+<session-factory>
+<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+<property name="connection.url">jdbc:mysql://localhost:3306/zohotest</property>
+<property name="connection.username">root</property>
+<property name="connection.password">root</property>
+ 
+<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+<!-- <property name="show_sql">true</property> -->
+<property name="hbm2ddl.auto">update</property>
+ 
+<mapping class="in.com.prestige.dto.ActivityDTO" />
+<mapping class="in.com.prestige.dto.BugDTO" />
+<mapping class="in.com.prestige.dto.ClietDTO" />
+<mapping class="in.com.prestige.dto.CompanyDTO" />
+<mapping class="in.com.prestige.dto.DashBoardDTO" />
+<mapping class="in.com.prestige.dto.DocumentDTO" />
+<mapping class="in.com.prestige.dto.FeedDTO" />
+<mapping class="in.com.prestige.dto.MilestonDTO" />
+<mapping class="in.com.prestige.dto.ProjectDTO" />
+<mapping class="in.com.prestige.dto.ProjectGroupDTO" />
+<mapping class="in.com.prestige.dto.ProjectMangagerDTO" />
+<mapping class="in.com.prestige.dto.ShareBugDTO" />
+<mapping class="in.com.prestige.dto.StatusDTO" />
+<mapping class="in.com.prestige.dto.UserDTO" />
+
+
+
+
+</session-factory>
+</hibernate-configuration>
